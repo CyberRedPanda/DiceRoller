@@ -16,6 +16,10 @@
 		6015CE6C253CDB290030E479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6015CE6A253CDB290030E479 /* LaunchScreen.storyboard */; };
 		6015CE77253CDB290030E479 /* DiceRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015CE76253CDB290030E479 /* DiceRollerTests.swift */; };
 		6015CE82253CDB290030E479 /* DiceRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015CE81253CDB290030E479 /* DiceRollerUITests.swift */; };
+		6015CE93253CDC910030E479 /* RollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015CE92253CDC910030E479 /* RollView.swift */; };
+		6015CE98253CDC9E0030E479 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015CE97253CDC9E0030E479 /* HistoryView.swift */; };
+		6015CE9D253CDF6C0030E479 /* DiceNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015CE9C253CDF6C0030E479 /* DiceNumber.swift */; };
+		6015CEA2253D10A90030E479 /* historyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015CEA1253D10A90030E479 /* historyData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		6015CE7D253CDB290030E479 /* DiceRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6015CE81253CDB290030E479 /* DiceRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerUITests.swift; sourceTree = "<group>"; };
 		6015CE83253CDB290030E479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6015CE92253CDC910030E479 /* RollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollView.swift; sourceTree = "<group>"; };
+		6015CE97253CDC9E0030E479 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		6015CE9C253CDF6C0030E479 /* DiceNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceNumber.swift; sourceTree = "<group>"; };
+		6015CEA1253D10A90030E479 /* historyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				6015CE5C253CDB280030E479 /* AppDelegate.swift */,
 				6015CE5E253CDB280030E479 /* SceneDelegate.swift */,
 				6015CE60253CDB280030E479 /* ContentView.swift */,
+				6015CE92253CDC910030E479 /* RollView.swift */,
+				6015CE9C253CDF6C0030E479 /* DiceNumber.swift */,
+				6015CEA1253D10A90030E479 /* historyData.swift */,
+				6015CE97253CDC9E0030E479 /* HistoryView.swift */,
 				6015CE65253CDB290030E479 /* Assets.xcassets */,
 				6015CE6A253CDB290030E479 /* LaunchScreen.storyboard */,
 				6015CE6D253CDB290030E479 /* Info.plist */,
@@ -270,9 +282,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6015CE64253CDB280030E479 /* DiceRoller.xcdatamodeld in Sources */,
+				6015CE98253CDC9E0030E479 /* HistoryView.swift in Sources */,
 				6015CE5D253CDB280030E479 /* AppDelegate.swift in Sources */,
+				6015CE93253CDC910030E479 /* RollView.swift in Sources */,
 				6015CE5F253CDB280030E479 /* SceneDelegate.swift in Sources */,
 				6015CE61253CDB280030E479 /* ContentView.swift in Sources */,
+				6015CE9D253CDF6C0030E479 /* DiceNumber.swift in Sources */,
+				6015CEA2253D10A90030E479 /* historyData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

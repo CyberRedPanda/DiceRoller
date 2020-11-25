@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var data: HistoryData
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            RollView()
+                .tabItem {
+                    Image(systemName: "gamecontroller")
+                    Text("Roll!")
+                }
+            HistoryView()
+                .tabItem {
+                    Image(systemName: "folder")
+                    Text("History")
+            }
+        }
     }
 }
 
